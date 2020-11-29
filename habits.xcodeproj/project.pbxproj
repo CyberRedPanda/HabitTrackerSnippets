@@ -13,6 +13,9 @@
 		6049A55D24BA9D4B00DC0396 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6049A55C24BA9D4B00DC0396 /* Assets.xcassets */; };
 		6049A56024BA9D4B00DC0396 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6049A55F24BA9D4B00DC0396 /* Preview Assets.xcassets */; };
 		6049A56324BA9D4B00DC0396 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6049A56124BA9D4B00DC0396 /* LaunchScreen.storyboard */; };
+		6049A56B24BAA6FA00DC0396 /* AddHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6049A56A24BAA6FA00DC0396 /* AddHabit.swift */; };
+		6049A56D24BAA9FD00DC0396 /* detailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6049A56C24BAA9FD00DC0396 /* detailView.swift */; };
+		6049A56F24BAB24200DC0396 /* HabitList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6049A56E24BAB24200DC0396 /* HabitList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		6049A55F24BA9D4B00DC0396 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6049A56224BA9D4B00DC0396 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6049A56424BA9D4B00DC0396 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6049A56A24BAA6FA00DC0396 /* AddHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabit.swift; sourceTree = "<group>"; };
+		6049A56C24BAA9FD00DC0396 /* detailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailView.swift; sourceTree = "<group>"; };
+		6049A56E24BAB24200DC0396 /* HabitList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				6049A55624BA9D4A00DC0396 /* AppDelegate.swift */,
 				6049A55824BA9D4A00DC0396 /* SceneDelegate.swift */,
+				6049A56A24BAA6FA00DC0396 /* AddHabit.swift */,
+				6049A56E24BAB24200DC0396 /* HabitList.swift */,
 				6049A55A24BA9D4A00DC0396 /* ContentView.swift */,
+				6049A56C24BAA9FD00DC0396 /* detailView.swift */,
 				6049A55C24BA9D4B00DC0396 /* Assets.xcassets */,
 				6049A56124BA9D4B00DC0396 /* LaunchScreen.storyboard */,
 				6049A56424BA9D4B00DC0396 /* Info.plist */,
@@ -146,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6049A56F24BAB24200DC0396 /* HabitList.swift in Sources */,
 				6049A55724BA9D4A00DC0396 /* AppDelegate.swift in Sources */,
 				6049A55924BA9D4A00DC0396 /* SceneDelegate.swift in Sources */,
+				6049A56B24BAA6FA00DC0396 /* AddHabit.swift in Sources */,
 				6049A55B24BA9D4A00DC0396 /* ContentView.swift in Sources */,
+				6049A56D24BAA9FD00DC0396 /* detailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
